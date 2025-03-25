@@ -1,0 +1,17 @@
+embedding_size: 256
+feat_embed_dim: 256
+
+n_layers: [1,2]
+dropout: [0.1,0.3,0.5]
+reg_weight: [0.01,0.1]
+
+rec_weight: [1]
+rec2_weight: [1]
+align_weight: [1]
+align2_weight: [1]
+bpr_weight: [0,0.01]
+
+
+use_neg_sampling: True
+hyper_parameters: ["n_layers", "dropout", "reg_weight" ,"rec_weight","rec2_weight","align_weight","align2_weight","bpr_weight"]
+
